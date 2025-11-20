@@ -1,0 +1,27 @@
+/* Q2. WAP to print the fibonacci series up to n
+	0 1 1 2 3 5 8 */
+	
+import java.util.Scanner;
+
+public class Q02 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter how many terms you want: ");
+        int n = sc.nextInt();
+
+        int a = 0, b = 1;
+
+        
+        System.out.print(a + " " + b);
+
+  
+        for(int i = 3; i <= n; i++){
+            int sum = a + b;
+            System.out.print(" " + sum);
+            a = b;
+            b = sum;
+        }
+    }
+}
+

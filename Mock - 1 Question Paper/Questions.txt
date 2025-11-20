@@ -1,0 +1,45 @@
+Q1. Write a java program to calculate the sum of digit without using while loop. 
+Input : 123 
+Output : 6 
+Q2. Write a Java program to convert seconds to hours, minutes and seconds. 
+ 
+Q3. Write a Java program to check whether a number is a multiple of both 3 and 5 using logical AND 
+(&&) operator. 
+Input: 15 
+Output: Multiple of both 3 and 5 
+Q4. Write a java program to input any alphabet and check whether it is vowel or consonant using 
+conditional operator. 
+Q5. Write a java program to check whether year is leap year or not using conditional operator. Q6.  
+ 
+Q6. Write a java program to check whether number is neon or not.  
+Input : 9 
+Output : Neon Number  
+Explanation: square is 9*9 = 81 and  
+sum of the digits of the square is 9. 
+ 
+Q7. Write a java program to input marks of five subjects Physics, Chemistry, Biology, Mathematics and 
+Computer, calculate percentage and grade according to given 
+conditions: percentage >= 90% : Excellent 
+percentage >= 75% : Good 
+percentage >= 50% : Average 
+percentage < 50 : Poor 
+Q8. Calculate commission based on sales amount: 
+• Input: Sales amount 
+• Logic: 
+o Sales < 5000 → 2% commission 
+o Sales 5000–10000 → 5% commission 
+o Sales > 10000 → 10% commission 
+• Output: Display commission amount. 
+ 
+ 
+Giri’s Tech Hub, Pune. 
+Core Java Machine Test 
+Batch: Oct-25 ( All Branch ) Date : 11/11/2025 
+Time : 08 to 11 Am. 
+ 
+Q9. Write a java menu-driven program in java using switch case. 
+1. Check Number is positive , negative or zero. 
+2. Check Number is even or odd. 
+3. Find max number using 2 number. 
+ 
+Q10. Write a java program to find a minimum between three numbers. 

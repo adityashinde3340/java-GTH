@@ -1,0 +1,14 @@
+Q1. WAP to input number from keyboard and print its table? 
+Q2. WAP to input number and calculate its factorial?
+Q3. WAP input base and index value from keyboard and calculate power of 
+       number.
+Q4. WAP to input number and count its digit. 
+	Input: 12345 
+	Output: Number of digit in number is 5.
+Q5. WAP to input number and reverse it.
+Q6. WAP input number and check number is Armstrong or not? 
+Q7. WAP to input number and check number is duck or not  
+	Input: 1024  - it is duck number  
+	Input: 12345 - it is not duck number 
+Q8. WAP to input number from keyboard and search digit present in number or 
+    not.
