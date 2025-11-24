@@ -1,0 +1,10 @@
+Q11. Write a java program to calculate the sum of digits in a number.
+Q12. Write a java program to calculate the product of digits in a number.
+Q13. Write a java program to enter a number and print its reverse.
+Q14. Write a java program to check whether a number is palindrome or not.
+Q15. Write a java program to print all ASCII characters with their values.
+Q16. Write a java program to find power of a number.
+Q17. Write a java program to find all factors of a number.
+Q18. Write a java program to find the first and last digit of a number.
+Q19. Write a java program to find the sum of the first and last digit of a number.
+Q20. Write a java program to swap first and last digits of a number.
