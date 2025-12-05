@@ -1,0 +1,57 @@
+1. Basic HTML Tags (20 Assignments)
+Create a webpage with all six heading tags.
+Write a paragraph using <strong> and <em> for emphasis.
+
+
+Add a horizontal line and a line break in a paragraph.
+
+
+Create a paragraph with subscript and superscript examples.
+
+
+Design a page with text using <mark>, <del>, and <ins>.
+
+
+Show usage of <abbr> and <address> tags.
+
+
+Write a biography page using multiple paragraphs.
+
+
+Create a page with preformatted text using <pre>.
+
+
+Use <blockquote> for a long quotation.
+
+
+Create inline quotation using <q>.
+
+
+Show difference between <b> and <strong>.
+
+
+Show difference between <i> and <em>.
+
+
+Create a page with text using <small> tag.
+
+
+Create a page with highlighted text using <mark>.
+
+
+Design a page with different text alignments.
+
+
+Use <hr> tag for separating sections.
+
+
+Create a page with nested paragraphs and inline text formatting.
+
+
+Use <code>, <kbd>, and <samp> tags to display code snippets.
+
+
+Create a page with a short poem using line breaks.
+
+
+Demonstrate <time> tag for dates and time.

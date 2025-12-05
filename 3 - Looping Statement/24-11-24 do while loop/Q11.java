@@ -2,7 +2,7 @@
 
 
 import java.util.Scanner;
-public class Q01{
+public class Q11{
    public static void main(String x[]){
 	
     Scanner sc = new Scanner(System.in);

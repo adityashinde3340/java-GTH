@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Create a page with preformatted text using <pre>. -->
+
+    <div
+      class="code"
+      style="background-color: black; color: white; width: 800px"
+    >
+      <pre>
+import java.util.Scanner;
+
+public class PR10{
+	public static void main(String x[]){
+	Scanner sc = new Scanner(System.in);
+	System.out.println("Enter three numbers : ");
+	int num1 = sc.nextInt();
+	int num2 = sc.nextInt();
+	int num3 = sc.nextInt();
+   
+    if (num1 > num2 && num1 > num3) {
+		System.out.println(num1+" is greater");
+	}   
+	else if(num2 > num3 && num2 > num1){
+		System.out.println(num2+" is greater");
+	}
+	else if(num3 > num2 && num3 > num1){
+		System.out.println(num3+" is greater");
+	}
+	else{
+		System.out.println("invalid operation");
+	}
+
+	}
+}
+</pre
+      >
+    </div>
+  </body>
+</html>

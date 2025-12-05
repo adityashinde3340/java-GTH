@@ -7,47 +7,34 @@ public class Q20DW {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number: ");
         int num = sc.nextInt();
-
         int temp = num;
-        int last = temp % 10;   
-
-        int first = 0;
-        int count = 0;
-
-        // find first digit and count digits
-		int j = 0;
-        do{
-            first = temp % 10;    
-            temp = temp / 10;
-            count++;
-			j++;
-        }while (j > num);
-
-       
-        if (count == 1) {
-            System.out.println("Swapped number: " + num);
-            return;
-        }
-
-       
-        int place = 1;
-		int i = 1;
+		int last = temp % 10;
+		
+		int count = 0;
+		do{
+			temp = temp / 10;
+		    count++;
+	  	}
+		while(temp>0);
+		
+		int place = 1;
+		int j = 1;
 		do{
 			place = place * 10;
+		    j++;
+		
 		}
-        while(i <= count);		
-        //for (int i = 1; i <= count - 1; i++) {
-        //    place = place * 10;
-        //}
-
-       
-        int middle = num % place;
-      
-        middle = middle / 10;
-
-      
-        int swapped = last * place + middle * 10 + first;
-
-        System.out.println("Swapped number: " + swapped);
+		while(j<count);
+		
+		int first = num / place;
+		int middle = (num % place) / 10;
+		
+		int swapped = last * 1000 + middle * 10 + first;
+	
+		System.out.println("first = "+first);
+		System.out.println("last ="+last);
+		System.out.println(swapped);
+		
+		
     }
 }
