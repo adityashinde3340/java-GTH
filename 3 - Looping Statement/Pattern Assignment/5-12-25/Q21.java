@@ -19,7 +19,7 @@ public class Q21{
 		}
 		else if(i == 2){
 			if(j == 4){
-				System.out.print("* ");
+				System.out.print("*  *");
 			}
 			else{
 				System.out.print("  ");
@@ -27,7 +27,7 @@ public class Q21{
 		}
 		else if(i == 3){
 			if(j == 3){
-				System.out.print("* ");
+				System.out.print("*   *");
 			}
 			else{
 				System.out.print("  ");
@@ -35,7 +35,7 @@ public class Q21{
 		}
 		else if(i == 4){
 			if(j == 2){
-				System.out.println("* ");
+				System.out.println("*    *");
 				
 			}
 			else{
