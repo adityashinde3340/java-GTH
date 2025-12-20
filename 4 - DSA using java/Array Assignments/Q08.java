@@ -23,23 +23,29 @@ public class Q08{
 	  //}
 	System.out.print("Array = ");
 	for(int i = 0 ; i < arr.length ; i++){
-		System.out.print(arr[i]);
+		System.out.print(arr[i]+" ");
 	}
 	
 	System.out.println();	
     
     boolean flag = false;
 	System.out.print("Missing elements = ");
-    for(int i = min ; i <= max ; i++)
-	{
-		System.out.print(i+" ");
-	}
 	
 	System.out.println();
 	
 	for(int i = min ; i <= max ; i++)
 	{
+		for(int j = 0 ; j < arr.length ; j++){
+	     if(i == arr[j]){
+			 break;
 		
+		 }
+		 //System.out.print(i+" "); 
+		}
+		
+		if(!flag){
+			System.out.print(i+" ");
+		}
 	}
 	
 	
