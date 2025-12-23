@@ -21,15 +21,18 @@ public class Q14{
 	
 	boolean flag = false;
 	for(int i = 0 ; i < arr.length ; i++){
-		for(int j = 1 ; j < arr.length ; j++){
+		for(int j = i+1 ; j < arr.length ; j++){
 			if(arr[i] == arr[j]){
-			   continue;
+			    arr[j]=-1;
 			}
-			else{
-				System.out.println(j+" ");
-			}
+			
 	       
 		}
+	}
+	
+	for(int i = 0 ; i < arr.length ; i++){
+		if(arr[i]!=-1)
+		System.out.print(arr[i]+" ");
 	}
 	}
 }

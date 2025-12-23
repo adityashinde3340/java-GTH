@@ -10,17 +10,12 @@ public class Q08{
 
 		*/
     Scanner sc = new Scanner(System.in);
-	//System.out.println("Enter a size : ");
-	//int size = sc.nextInt();
+	
 	
     int arr[] = {1 , 2 , 4 , 5 , 7};
 	int max = arr[arr.length -1];
 	int min = arr[arr.length - arr.length];
-	//int arr[] = new int[size];
-    //System.out.println("Enter array elements : ");
-	  //for(int i = 0 ; i < arr.length ; i++){
-		 // arr[i]=sc.nextInt();
-	  //}
+	
 	System.out.print("Array = ");
 	for(int i = 0 ; i < arr.length ; i++){
 		System.out.print(arr[i]+" ");
@@ -28,25 +23,12 @@ public class Q08{
 	
 	System.out.println();	
     
-    boolean flag = false;
+    
 	System.out.print("Missing elements = ");
 	
 	System.out.println();
 	
-	for(int i = min ; i <= max ; i++)
-	{
-		for(int j = 0 ; j < arr.length ; j++){
-	     if(i == arr[j]){
-			 break;
-		
-		 }
-		 //System.out.print(i+" "); 
-		}
-		
-		if(!flag){
-			System.out.print(i+" ");
-		}
-	}
+	
 	
 	
 	
