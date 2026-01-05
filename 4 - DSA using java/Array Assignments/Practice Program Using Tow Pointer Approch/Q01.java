@@ -26,3 +26,37 @@ Pointer increment & decrement
 Loop control logic
 
 */
+
+import java.util.Scanner;
+public class Q01{
+	public static void main(String x[]){
+	Scanner sc = new Scanner(System.in);
+	System.out.println("Enter size : ");
+	int size = sc.nextInt();
+	
+	System.out.println("Enter array elemenets : ");
+	int arr[] = new int[size];
+	int count = 0;
+	for(int i = 0 ; i < arr.length ; i++){
+		arr[i] = sc.nextInt();
+	}
+    
+	System.out.println();  
+
+	boolean res = false;
+	
+	for(int i = 0 ; i < arr.length ; i++){
+		if(arr[0] == arr[(arr.length - 1) - i]){
+			res = true;
+		}
+	}
+	
+	if(res){
+		System.out.println("array is palindrome");
+	}
+	else{
+		System.out.println("array is not palindrome");
+	}
+	
+	}
+}
