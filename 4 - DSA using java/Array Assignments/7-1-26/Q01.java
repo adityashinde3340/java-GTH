@@ -10,25 +10,22 @@ Output :- 4
 */
 
 public class Q01{
-	public static void main(String x[]){
-	int arr[] = {2, 1, 5, 1, 3, 2};
-	int k = 7;
-	int sum, count = 0;
-	
-	System.out.print("Arr = ");
-	for(int i = 0 ; i < arr.length ; i++){
-		System.out.print(arr[i]+" ");
-	}
-	
-	System.out.println();
-	
- 	for(int i = 0 ; i < arr.length; i++){
-		for(int j = i ; j < (i-k) ; j++){
-		}	
-	}	
-	
-	System.out.println(" = "+count);
-	
-	
+    public static void main(String args[]){
+	      int []arr ={2, 1, 5, 1,3,2};
+		  int k =7;
+		  int sum=0;
+		  int max=0;
+		  int start =0;
+		  for(int i=0;i<arr.length;i++){
+		     sum +=arr[i];//2+1=3=3+5=8
+			  while(sum>k){	 
+				  sum-=arr[start];
+				  start++;
+				  
+			  }
+			   max =Math.max(max,(i-start+1));//
+			 
+		  }
+		  System.out.println("the max length is "+max);
 	}
 }
