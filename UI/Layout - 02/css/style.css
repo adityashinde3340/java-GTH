@@ -1,0 +1,153 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  border: 1px solid black;
+  margin: auto;
+}
+.main-header {
+  background-color: black;
+  color: white;
+  height: 80px;
+  width: 100;
+}
+.main-header h3 {
+  display: block;
+  line-height: 80px;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-size: 25px;
+  /* padding-left: 10px; */
+  margin-left: 10px;
+  margin-right: 40px;
+}
+.main-nav {
+  height: 80px;
+  width: 100%;
+  background-color: rgb(218, 159, 71);
+  margin-top: 5px;
+}
+.main-nav ul {
+  /* display: inline-block; */
+  list-style: none;
+}
+.main-nav ul li {
+  display: inline-block;
+  line-height: 80px;
+}
+.main-nav ul li a:hover {
+  background-color: rgb(141, 116, 41);
+  border-radius: 5px;
+}
+.main-nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  margin-left: 10px;
+  margin-right: 30px;
+  padding: 10px;
+}
+
+.img {
+  height: 500px;
+  width: 100%;
+  margin-top: 5px;
+}
+.img img {
+  width: 100%;
+  height: 500px;
+  object-fit: fill;
+}
+.box {
+  height: 400px;
+  width: 101%;
+  overflow: hidden;
+  margin-top: 5px;
+}
+.box1 {
+  float: left;
+  height: 400px;
+  width: 33%;
+}
+.box1 img {
+  height: 400px;
+  width: 100%;
+  object-fit: fill;
+}
+.box2 {
+  float: left;
+  height: 400px;
+  width: 33%;
+}
+.box2 img {
+  height: 400px;
+  width: 100%;
+  object-fit: fill;
+}
+.box3 {
+  float: left;
+  height: 400px;
+  width: 33%;
+}
+.box3 img {
+  height: 400px;
+  width: 100%;
+  object-fit: fill;
+}
+.card {
+  height: 200px;
+  width: 100%;
+}
+.card .para {
+  float: left;
+  width: 80%;
+}
+.para p {
+  text-align: justify;
+}
+.card-img {
+  float: right;
+  width: 20%;
+}
+.card-img img {
+  height: 200px;
+  width: 100%;
+  object-fit: fill;
+  padding: 5px;
+}
+
+.card-1 {
+  height: 200px;
+  width: 100%;
+}
+.card-1 .para-1 {
+  float: left;
+  width: 80%;
+}
+.para-1 p {
+  text-align: justify;
+}
+.card-img-1 {
+  float: left;
+  width: 20%;
+}
+.card-img-1 img {
+  height: 200px;
+  width: 100%;
+  object-fit: fill;
+  padding: 5px;
+}
+.ft {
+  height: 100px;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+.ft p {
+  text-align: center;
+  line-height: 85px;
+}
