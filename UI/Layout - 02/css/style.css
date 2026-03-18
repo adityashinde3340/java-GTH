@@ -100,6 +100,7 @@
 .card {
   height: 200px;
   width: 100%;
+  margin-top: 5px;
 }
 .card .para {
   float: left;
@@ -107,13 +108,14 @@
 }
 .para p {
   text-align: justify;
+  padding: 10px;
 }
 .card-img {
   float: right;
   width: 20%;
 }
 .card-img img {
-  height: 200px;
+  height: 197px;
   width: 100%;
   object-fit: fill;
   padding: 5px;
@@ -123,12 +125,13 @@
   height: 200px;
   width: 100%;
 }
-.card-1 .para-1 {
-  float: left;
+.para-1 {
+  float: right;
   width: 80%;
 }
 .para-1 p {
   text-align: justify;
+  padding: 10px;
 }
 .card-img-1 {
   float: left;
@@ -136,10 +139,12 @@
 }
 .card-img-1 img {
   height: 200px;
-  width: 100%;
+  width: 98%;
   object-fit: fill;
   padding: 5px;
+  float: left;
 }
+
 .ft {
   height: 100px;
   width: 100%;
@@ -149,5 +154,5 @@
 
 .ft p {
   text-align: center;
-  line-height: 85px;
+  line-height: 100px;
 }
