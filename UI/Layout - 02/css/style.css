@@ -6,7 +6,7 @@
 
 .container {
   width: 80%;
-  border: 1px solid black;
+
   margin: auto;
 }
 .main-header {
@@ -27,7 +27,7 @@
 .main-nav {
   height: 80px;
   width: 100%;
-  background-color: rgb(218, 159, 71);
+  background-color: #37353e;
   margin-top: 5px;
 }
 .main-nav ul {
@@ -63,44 +63,52 @@
 }
 .box {
   height: 400px;
-  width: 101%;
+  width: 100%;
   overflow: hidden;
   margin-top: 5px;
 }
 .box1 {
   float: left;
   height: 400px;
-  width: 33%;
+  width: 32.5%;
+  margin: 5px;
 }
 .box1 img {
   height: 400px;
   width: 100%;
   object-fit: fill;
+  border-radius: 5px;
+  box-shadow: 0 0 10px black;
 }
 .box2 {
   float: left;
   height: 400px;
-  width: 33%;
+  width: 32.5%;
+  margin: 5px;
 }
 .box2 img {
   height: 400px;
   width: 100%;
   object-fit: fill;
+  border-radius: 5px;
+  box-shadow: 0 0 16px black;
 }
 .box3 {
   float: left;
   height: 400px;
-  width: 33%;
+  width: 32.5%;
+  margin: 5px;
 }
 .box3 img {
   height: 400px;
   width: 100%;
   object-fit: fill;
+  border-radius: 5px;
+  box-shadow: 0 0 10px black;
 }
 .card {
   height: 200px;
   width: 100%;
-  margin-top: 5px;
 }
 .card .para {
   float: left;
@@ -124,6 +132,7 @@
 .card-1 {
   height: 200px;
   width: 100%;
+  margin-top: 5px;
 }
 .para-1 {
   float: right;
@@ -150,6 +159,7 @@
   width: 100%;
   background-color: black;
   color: white;
+  margin-top: 5px;
 }
 
 .ft p {
