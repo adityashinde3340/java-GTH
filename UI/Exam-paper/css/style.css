@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+}
+.container {
+  width: 65%;
+  min-height: 200px;
+  margin: auto;
+}
+.header {
+  width: 100%;
+  background-color: black;
+
+  height: 125px;
+}
+.header h3 {
+  text-align: center;
+  line-height: 125px;
+  color: white;
+}
+.hero {
+  width: 100%;
+  background-color: cyan;
+  height: 200px;
+}
+.hero h3 {
+  text-align: center;
+  line-height: 200px;
+  color: white;
+}
+.box {
+  height: 500px;
+  width: 100%;
+  background-color: azure;
+}
+.left {
+  width: 35%;
+  background-color: brown;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: left;
+}
+.left h3 {
+  color: white;
+}
+.right {
+  height: 100%;
+  width: 65%;
+  float: right;
+}
+.main {
+  height: 40%;
+  width: 100;
+  background-color: navy;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.banner {
+  height: 30%;
+  width: 100%;
+  background-color: rgb(197, 197, 49);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.bottom {
+  height: 30%;
+  width: 100%;
+}
+.extra {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: left;
+  background-color: rgb(21, 179, 173);
+}
+.image {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: left;
+  background-color: rgb(69, 183, 162);
+}
