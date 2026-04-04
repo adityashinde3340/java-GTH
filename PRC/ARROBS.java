@@ -26,7 +26,7 @@ public class ARROBS{
    }
    
    for(int i = 0 ; i < st.length ; i++){
-      System.out.println("Student no"+st[i]);
+      
       System.out.println("Student ID : "+st[i].id);
       System.out.println("Student Name : "+st[i].name);
       System.out.println("Student Marks : "+st[i].marks);
