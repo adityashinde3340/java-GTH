@@ -10,7 +10,7 @@ public class PR02{
    
    for(int n: list){
       System.out.println(n+" ");
-   }
+  }
    
    }
 }

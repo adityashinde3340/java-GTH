@@ -10,5 +10,6 @@ public class PR03{
         }
         
         System.out.println(ls1.size());
+        
     }
 }
