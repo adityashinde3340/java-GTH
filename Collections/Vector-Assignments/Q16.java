@@ -56,7 +56,7 @@ class Mobile{
   
 }
 public class Q16{
-   public static void main(String x[]){
+   public static void main(String args[]){
    Scanner sc = new Scanner(System.in);
    
    System.out.println("Enter No of brands : ");
